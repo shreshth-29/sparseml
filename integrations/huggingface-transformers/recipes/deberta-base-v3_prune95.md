@@ -80,7 +80,7 @@ Adjust the training command below with your setup for GPU device, checkpoint sav
 ```
 python transformers/examples/pytorch/question-answering/run_qa.py \
   --distill_teacher MODELS_DIR/teacher \
-  --model_name_or_path bert-base-uncased \
+  --model_name_or_path deberta-v3-base-squad2 \
   --dataset_name squad \
   --do_train \
   --fp16 \
